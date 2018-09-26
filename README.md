@@ -7,6 +7,8 @@ yarn eslint --init (follow the prompt or add .eslintrc.js with sample configs fr
 yarn add --dev eslint-plugin-react babel-eslint
 yarn add express ejs
 yarn add --dev react-test-renderer
+yarn add --dev enzyme 	(shallow rendering)
+yarn upgrade-interactive	(lists all packages need upgrading)
 
 "scripts": {
     "dev": "set NODE_PATH=./lib&& nodemon --exec babel-node lib/server.js",
