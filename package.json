@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "set NODE_PATH=./lib&& nodemon --exec babel-node lib/server.js",
     "webpack": "webpack -wd",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "verify-tests": "jest --coverage"
   },
   "babel": {
     "presets": [
@@ -19,6 +20,7 @@
   "devDependencies": {
     "babel-eslint": "^9.0.0",
     "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
     "eslint": "^5.6.0",
     "eslint-plugin-react": "^7.11.1",
     "jest": "^23.6.0",

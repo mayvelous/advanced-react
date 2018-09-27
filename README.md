@@ -5,7 +5,7 @@ yarn eslint --init 			(follow the prompt or add .eslintrc.js with sample configs
 yarn add --dev eslint-plugin-react babel-eslint
 yarn add express ejs
 yarn add --dev react-test-renderer
-yarn add --dev enzyme 		(shallow rendering)
+yarn add --dev enzyme enzyme-adapter-react-16		(shallow rendering need extra configuration with React 16.x see: http://airbnb.io/enzyme/docs/installation/index.html)
 yarn upgrade-interactive	(lists all packages need upgrading)
 yarn add --dev react-addons-perf	(Performance tools addon; does not work with React 16.x)
 
