@@ -1,3 +1,4 @@
 node_modules/
-public/bundle.js
+public/verdor.js
+public/app.js
 coverage/
